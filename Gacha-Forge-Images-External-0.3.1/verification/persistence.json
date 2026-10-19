@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "engine": "2.5.0",
+  "isolatedFixture": true,
+  "originalInstallationUntouched": true,
+  "realExtensionStorageApi": true,
+  "realGalleryUploadAndFileRead": true,
+  "realAddonGenerate": true,
+  "serverProcessRestart": true,
+  "fullBackupArchiveCreated": true,
+  "restoredStorageAndGalleryInNewDirectory": true,
+  "cgAndPerSceneBackgroundRestored": true,
+  "extensionUpgradeKeepsStorage": true,
+  "sourceStoryProgressAndWalletUnchanged": true,
+  "paidCalls": 0,
+  "syntheticImageProvider": true
+}

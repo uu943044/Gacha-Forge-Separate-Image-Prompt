@@ -1,0 +1,201 @@
+{
+  "passed": true,
+  "unpatchedEngine": "2.5.0",
+  "isolatedDataDirectory": true,
+  "realHttpRoutes": [
+    "connections duplicate",
+    "connection default-parameters",
+    "characters avatar-generation",
+    "connections delete",
+    "personal extensions import"
+  ],
+  "importedAsDisabledExternal": true,
+  "capabilitiesPreserved": [
+    "full_page_access"
+  ],
+  "originalConnectionUnchanged": true,
+  "nativeCharacterCounts": [
+    0,
+    1,
+    2
+  ],
+  "paidCalls": 0,
+  "networkResponseReplaced": true,
+  "wire": [
+    {
+      "input": "scenery, no humans, park",
+      "model": "nai-diffusion-4-5-full",
+      "action": "generate",
+      "parameters": {
+        "width": 1216,
+        "height": 832,
+        "n_samples": 1,
+        "ucPreset": 0,
+        "negative_prompt": "text",
+        "seed": 2206736632,
+        "scale": 6,
+        "steps": 28,
+        "sampler": "k_euler_ancestral",
+        "cfg_rescale": 0,
+        "params_version": 3,
+        "reference_image_multiple": [],
+        "reference_information_extracted_multiple": [],
+        "reference_strength_multiple": [],
+        "noise_schedule": "karras",
+        "v4_prompt": {
+          "caption": {
+            "base_caption": "scenery, no humans, park",
+            "char_captions": []
+          },
+          "use_coords": false,
+          "use_order": true
+        },
+        "v4_negative_prompt": {
+          "caption": {
+            "base_caption": "text",
+            "char_captions": []
+          },
+          "use_coords": false,
+          "use_order": true
+        }
+      },
+      "use_new_shared_trial": true
+    },
+    {
+      "input": "1girl, park",
+      "model": "nai-diffusion-4-5-full",
+      "action": "generate",
+      "parameters": {
+        "width": 832,
+        "height": 1216,
+        "n_samples": 1,
+        "ucPreset": 0,
+        "negative_prompt": "text",
+        "seed": 4249170472,
+        "scale": 6,
+        "steps": 28,
+        "sampler": "k_euler_ancestral",
+        "cfg_rescale": 0,
+        "params_version": 3,
+        "reference_image_multiple": [],
+        "reference_information_extracted_multiple": [],
+        "reference_strength_multiple": [],
+        "noise_schedule": "karras",
+        "v4_prompt": {
+          "caption": {
+            "base_caption": "1girl, park",
+            "char_captions": [
+              {
+                "char_caption": "girl, red hair, blue dress",
+                "centers": [
+                  {
+                    "x": 0.33,
+                    "y": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          "use_coords": false,
+          "use_order": true
+        },
+        "v4_negative_prompt": {
+          "caption": {
+            "base_caption": "text",
+            "char_captions": [
+              {
+                "char_caption": "black hair",
+                "centers": [
+                  {
+                    "x": 0.33,
+                    "y": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          "use_coords": false,
+          "use_order": true
+        }
+      },
+      "use_new_shared_trial": true
+    },
+    {
+      "input": "1girl, 1boy, park",
+      "model": "nai-diffusion-4-5-full",
+      "action": "generate",
+      "parameters": {
+        "width": 1024,
+        "height": 1024,
+        "n_samples": 1,
+        "ucPreset": 0,
+        "negative_prompt": "text",
+        "seed": 2966809475,
+        "scale": 6,
+        "steps": 28,
+        "sampler": "k_euler_ancestral",
+        "cfg_rescale": 0,
+        "params_version": 3,
+        "reference_image_multiple": [],
+        "reference_information_extracted_multiple": [],
+        "reference_strength_multiple": [],
+        "noise_schedule": "karras",
+        "v4_prompt": {
+          "caption": {
+            "base_caption": "1girl, 1boy, park",
+            "char_captions": [
+              {
+                "char_caption": "girl, red hair, blue dress",
+                "centers": [
+                  {
+                    "x": 0.33,
+                    "y": 0.5
+                  }
+                ]
+              },
+              {
+                "char_caption": "boy, black hair, black coat",
+                "centers": [
+                  {
+                    "x": 0.67,
+                    "y": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          "use_coords": true,
+          "use_order": true
+        },
+        "v4_negative_prompt": {
+          "caption": {
+            "base_caption": "text",
+            "char_captions": [
+              {
+                "char_caption": "black hair",
+                "centers": [
+                  {
+                    "x": 0.33,
+                    "y": 0.5
+                  }
+                ]
+              },
+              {
+                "char_caption": "red hair",
+                "centers": [
+                  {
+                    "x": 0.67,
+                    "y": 0.5
+                  }
+                ]
+              }
+            ]
+          },
+          "use_coords": true,
+          "use_order": true
+        }
+      },
+      "use_new_shared_trial": true
+    }
+  ]
+}
